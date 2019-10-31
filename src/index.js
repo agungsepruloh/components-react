@@ -2,10 +2,17 @@ import React from "react";
 import ReactDOM from "react-dom";
 import CommentDetail from "./CommentDetail";
 import ApprovalCard from "./ApprovalCard";
+import Message from "./Message";
 
 const App = () => {
     return (
         <div className="ui container comments">
+            <Message
+                header="Changes in Service"
+                messageBody="We just update your privacy police here to better service our customer."
+            />
+
+            <Message header="Attention!" messageBody="We did an update." />
             <ApprovalCard>
                 <div>
                     <h4>Warning!</h4>
