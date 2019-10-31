@@ -13,7 +13,7 @@ const CommentDetail = props => {
                 <div className="metadata">
                     <span className="date">{props.time}</span>
                 </div>
-                <div className="text">{props.comments}</div>
+                <div className="text">{props.content}</div>
             </div>
         </div>
     );
